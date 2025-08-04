@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>village tourism</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="lightbox.css">
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo4.png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="home.html">ABOUT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="booking.html">BOOKING</a></li>
+                <li><a href="contact.html">CONTACTS</a></li>
+               
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+   <h1>Contact Us</h1>
+</section>
+<!------ contact------->
+<section class="location">
+<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d364.33881595041646!2d76.42094800874428!3d9.
+362311844675803!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1680512519332!5m2!1sen!2sin"
+ width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section class="contact-us" id="contact-us">
+    <div class="row">
+<div class="contact-col">
+
+<div>
+    <i class="fa fa-home"></i>
+    <span>
+        <h5>vanniyapuzha kunnuma p.o thakazhy</h5>
+        <p>Kunnumma , Thakazhy, Alappy</p>
+    </span>
+</div><br>
+
+<div>
+<i class="fa fa-phone"></i>
+<span>
+    <h5>9746482276</h5>
+    <p>Monday to Sunday, 10AM to 6PM</p>
+</span>
+</div><br>
+
+<div>
+<i class="fa fa-envelope-open" ></i>
+<span>
+    <h5>villageheritage@gmail.com</h5>
+    <p>Email us your query</p>
+</span>
+</div></div>
+
+
+<div class="contact-col">
+    <form action="contact.php" method="post">
+        <h3>Send Us Message</h3>
+        <br>
+        <input type="text" name="name" required  placeholder="enter your name" >
+        <input type="email" name="email" required  placeholder="enter your email" >
+        <textarea name="msg" class="box" required  placeholder="enter your message" cols="30" rows="10"></textarea>
+        <input type="submit" value="Send message" name="send" class="btn">
+    </form>
+
+</div>
+    </div>
+
+</section>
+
+<!-------review------->
+<section class="review">
+    <h2>Review</h2><br>
+    <div class="review-row">
+        <div class="reviews">
+            <img src="images/p1.jpg" >
+                <div>
+<p>A beutiful place to stay. Very comfortable and welcomming. Walking distance to alleppey beach and auto travel distance to very clean.
+</p><br>
+<h3>Pooja</h3>
+    </div>
+        </div>
+    <div class="reviews">
+        <img src="images/p5.jpg" >
+            <div>
+<p>Good place for weekend chill. They have a pool and the beach is right across the main road. Food is good too. Staff is very good and helpful.
+    Overall a very nice experience. 
+</p><br>
+<h3>Appuu</h3>
+</div>
+</div>
+
+<div class="reviews">
+    <img src="images/p2.jpg" >
+        <div>
+<p>Good old building kept will to get the feeling olden times... one will tend to feel the age-old traditions of a muslim rich family of 19century.
+</p><br>
+<h3>Ananthu</h3>
+</div>
+</div>
+<div class="reviews">
+    <img src="images/p3.jpg" >
+        <div>
+<p>Thakazhy is much more than a destination for the people of kerala. The lake side village was immortalised by the great malayalam writer...</p>
+<br><h3>Vishnuu</h3>
+</div>
+</div>
+<div class="reviews">
+    <img src="images/p4.jpg" >
+        <div>
+<p>A beutiful place to stay. Very comfortable and welcomming. Walking distance to alleppey beach and auto travel distance to very clean.
+</p><br>
+<h3>Devan</h3>
+</div>
+</div>
+
+</section>
+
+
+
+<!-------footer------->
+<section class="footer">
+<h4>About Us</h4>
+<p>To know more visit personal pages to see more pictures and details</p>
+<div class="icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+</div>
+
+</section>
+    
+<!-----javaScript for Toggle menu------>
+<script>
+    var navlinks=document.getElementById("navlinks");
+    function showMenu(){
+        navlinks.style.right="0";
+    }
+    function hideMenu(){
+        navlinks.style.right="-200px";
+    }
+</script>
+
+
+</body>
+</html>

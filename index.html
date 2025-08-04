@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>village tourism</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        
+    <nav>
+        <a href="index.html"><img src="images/logo4.png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="home.html">ABOUT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="booking.html">BOOKING</a></li>
+                <li><a href="contact.html">CONTACTS</a></li>
+               
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+        <h1>Village Heritage Tourism in Kerala</h1>
+        <p>Keralais having unique geographical features. Kuttanade is having only
+             few places in the <br> world which is cultivating below sea level</p>
+             <a href="" class="hero-btn">Visit Us To Know More</a>
+    </div>
+    
+</section>
+
+<!-------footer------->
+<section class="footer">
+<h4>About Us</h4>
+<p>To know more visit personal pages to see more pictures and details</p>
+<div class="icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    
+    
+    
+   
+
+
+</div>
+
+</section>
+    
+<!-----javaScript for Toggle menu------>
+<script>
+    var navlinks=document.getElementById("navlinks");
+    function showMenu(){
+        navlinks.style.right="0";
+    }
+    function hideMenu(){
+        navlinks.style.right="-200px";
+    }
+</script>
+
+
+</body>
+</html>
